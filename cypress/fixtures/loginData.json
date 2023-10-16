@@ -1,0 +1,25 @@
+[ 
+    {
+    "name": "Should log-in successfully, and land on the Dashboard page",
+    "username": "Admin",
+    "password": "admin123",
+    "expected": "Dashboard"
+  },
+
+{
+    "name": "error message should state 'Invalid credentials'",
+    "username": "incorrect_username",
+    "password": "admin123",
+    "expected": "Invalid credentials"
+},
+
+{
+    "name": "error message should state 'Invalid credentials'",
+    "username": "Admin",
+    "password": "incorect_password",
+    "expected": "Invalid credentials"
+
+}
+
+]
+
